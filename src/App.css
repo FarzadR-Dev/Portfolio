@@ -13,6 +13,146 @@
   }
 }
 
+introItem {
+  text-align: center; vertical-align:middle;
+}
+
+introItem2{
+  text-align: center; color: white; padding:1%
+}
+
+.header-wrapper {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  
+}
+.main-info{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  
+  /* background: rgba(0, 0, 0, 0.3); */
+}
+
+
+.box3 {
+  text-align: center;
+  width: 33.33%;
+  float: left;
+  height: 100%;
+  line-height: 50%;
+  color: rgb(0, 0, 0);
+  background: linear-gradient( white, white 50%, #333 50%, rgb(50, 92, 207));
+  background-size: 100% 200%;
+  transition: all 0.2s ease;
+  animation: down-bump 0.4s ease;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+video {
+  opacity: 0.8;
+  background-color: #062a38b0;
+  width: 100vh;
+  overflow-x:none;
+}
+
+.dark-nav {
+  background: rgba(0, 0, 0, 0.76);
+  color: rgba(71, 114, 101, 0.726);
+
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.column-1{
+  flex: 50%;
+  padding: 5px;
+}
+
+.paragraph {
+  font-size: x-large;
+  color: rgba(167, 205, 216, 0.596);
+  padding-right: 3vh;
+  padding-left: 3vh;
+}
+
+.paragraph-1 {
+  font-size: x-large;
+  color: rgba(0, 0, 0, 0.596);
+  padding-right: 3vh;
+  padding-left: 3vh;
+}
+
+
+
+.box1,
+.box2,
+.box3 h2 {
+  font-weight: 400;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover {
+  background-position: 100% 100%;
+  animation: down-bump 0.4s ease;
+}
+
+
+.box3:hover h2 {
+  color: #c2184b;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover h2 span {
+  color: white;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover h3 {
+  color: #999;
+  font-size: medium;
+}
+.title{
+  align-items: center;
+
+  color: rgba(167, 205, 216, 0.596);
+}
+
+.image-type {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,8 +164,117 @@
   color: white;
 }
 
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vh;
+  z-index: 1;
+}
+
+.dark-info{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left:0;
+  right:0;
+  bottom:0;
+  /* align-items:; */
+  /* text-align: center; */
+  
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.dark-info-2{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  top: 0;
+  left:0;
+  right:0;
+  bottom:0;
+  /* align-items:; */
+  text-align: center;
+
+  
+  background-color: rgba(90, 71, 114, 0.726);
+}
+.dark-info-3{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  
+  background-color: rgba(71, 114, 101, 0.726);
+}
+
+.dark-info-4{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  
+  background-color: rgba(39, 71, 139, 0.726);
+}
+.dark-info-5{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  
+  background-color: rgba(194, 120, 175, 0.726);
+}
+
+.dark-info-text{
+  color: rgba(167, 205, 216, 0.596);
+  padding-right: 8vh;
+}
+.dark-info-tex{
+  color: rgba(167, 205, 216, 0.596);
+}
+
+
 .App-link {
   color: #61dafb;
+}
+
+
+#background-video{
+  height: 100%;
+width: 100%;
+object-fit: cover;
+padding: none;
+position: fixed; /* optional depending on what you want to do in your app */
+
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +285,10 @@
     transform: rotate(360deg);
   }
 }
+
+footer{
+position:absolute;
+bottom:0;
+align-items: center;
+}
+
