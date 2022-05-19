@@ -251,7 +251,7 @@ return(
       <img src={DisGraph} alt="Seventh slide" className='image-type'/>
   </a>
         <Carousel.Caption>
-      <h3>chAD (Hack the North 2020 Submission)</h3>
+      <h3>DisGraph (Hack the North 2020 Submission)</h3>
       <p>Wrote script functions for a discord bot that generates graphs from user input data based on graph style choice and details.</p>
     </Carousel.Caption>
   </Carousel.Item>
