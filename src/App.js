@@ -21,7 +21,7 @@ function App() {
 
   function renderBackground(){
 return(
-    <video className='videoTag' id="background-video" autoPlay loop>
+    <video className='videoTag' id="background-video" autoPlay loop muted>
           <source src={newvid} type='video/mp4'/>
       </video>
 )
@@ -34,14 +34,20 @@ return(
 
     return(
       <div className='header-wrapper'>
+        
         <div className='main-info'>
+          
         <Button onClick={handleClick}>
           <h1>
             Enter
           </h1>
+          
         </Button>
+        Not optimized for mobile.
+        
         </div>
-      </div>
+        
+      </div>   
     )
   }
 
@@ -97,7 +103,10 @@ return(
           <h1>Welcome</h1>
           <p>Website? More like a glorified linktree.
           <br/> And a bit about Farzad too...
+          <br></br>
+          <br/> Here have some lazy music. Try from number 6 and below.
           </p>          
+          <iframe title="spotify" src="https://open.spotify.com/embed/playlist/1wbz27QMs5MwI4FblEoaOj?utm_source=generator" width="20%" height="50%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         </div>
       </div>
 
@@ -216,6 +225,10 @@ return(
   </a>
         <Carousel.Caption>
       <h3>youtube</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/A9FPrMZYIro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/bg7WgyDC9kI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/r_5zR3e6feo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/N63z0A_Kses" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Carousel.Caption>
   </Carousel.Item>
 
