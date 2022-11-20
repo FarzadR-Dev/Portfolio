@@ -139,8 +139,8 @@ return(
           <a href="https://www.blackberry.com/us/en">
           <img alt='BlackBerry'src='https://logos-world.net/wp-content/uploads/2020/11/BlackBerry-Logo.png' className='image-type'/>
           </a>
-          <h3>Software Development Engineer in Test aka SDET(TestRail, Git, Postman, xUnit C#, Jira)</h3> 
-            <p className='paragraph-1'>Recently, I started working at BlackBerry as a SDET. I ran manual frontend and backend tests around Cylance Cybersecurity platforms.
+          <h3 className='white-text' id="workdesc">Software Development Engineer in Test aka SDET(TestRail, Git, Postman, xUnit C#, Jira)</h3> 
+            <p className='paragraph-2'>Recently, I started working at BlackBerry as a SDET. I ran manual frontend and backend tests around Cylance Cybersecurity platforms.
             Part of my specialty was developing and debugging backend automation tests utilizing the xUnit framework while exploring a bit of Cypress for frontend testing.
             Before getting into automation, I had to audit the coverage of tests where I used a python bot to run through our testRail and repository.
             In a sense, I automated an automation audit.

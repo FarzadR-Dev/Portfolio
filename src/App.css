@@ -97,11 +97,22 @@ video {
   padding-left: 3vh;
 }
 
+.white-text {
+  color: rgba(163, 168, 170, 0.795);
+}
+
 .paragraph-1 {
   font-size: x-large;
   color: rgba(0, 0, 0, 0.596);
   padding-right: 3vh;
   padding-left: 3vh;
+}
+.paragraph-2{
+  font-size: x-large;
+  color: rgba(212, 231, 233, 0.596);
+  padding-right: 3vh;
+  padding-left: 3vh;
+  
 }
 
 
