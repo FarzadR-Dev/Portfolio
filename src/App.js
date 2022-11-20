@@ -136,15 +136,15 @@ return(
     <div className='dark-info-3' id="work">
           <h1>Recent Work Experience</h1>
           <br></br>
-          <a href="https://soaringtasks.com/">
-          <img alt='proving grounds'src='https://soaringtasks.com/wp-content/uploads/2019/11/PGtitlelogo2-scaled.png' className='image-type'/>
+          <a href="https://www.blackberry.com/us/en">
+          <img alt='BlackBerry'src='https://logos-world.net/wp-content/uploads/2020/11/BlackBerry-Logo.png' className='image-type'/>
           </a>
-          <h3>Full-Stack Developer (ServerlessStack, React JS, Node JS, AWS...)</h3> 
-            <p className='paragraph-1'>This recent winter co-op term, I got to work at Proving Grounds for my first co-op position.
-              I was a full-stack developer working on a glider-club management platform. As a full-stack developer, I created front-end features with react-bootstrap
-              and added functionality by adapting to internal assets and existing tools. I created api functions for use of new features whenever necessary.
-              For example, I created a club-admin page where admins could manage club rules and database-stored factors such as payment methods, dates, and transaction lock data. 
-            </p>
+          <h3>Software Development Engineer in Test aka SDET(TestRail, Git, Postman, xUnit C#, Jira)</h3> 
+            <p className='paragraph-1'>Recently, I started working at BlackBerry as a SDET. I ran manual frontend and backend tests around Cylance Cybersecurity platoforms.
+            Part of my specialty was developing and debugging backend automation tests utilizing the xUnit framework while exploring a bit of Cypress for frontend testing.
+            Before getting into automation, I had to audit the coverage of tests where I used a python bot to run through our testRail and repository.
+            In a sense, I automated an automation audit.
+  </p>
     </div>
   </div>
       
@@ -239,7 +239,10 @@ return(
   </a>
         <Carousel.Caption>
       <h3>Re-Fill</h3>
-      <p>Okay now this is actually a cool thing in the works right now. You'll be really excited if you are involved in any way.</p>
+      <p>Re-Fill is a revolutionary snack subscription platform whose automated system is designed to give customers the most freedom regarding 
+        their snacks, their schedule and their lifestyle. The website is currently under reconstruction, but check out our award winning pitch!
+      </p>
+      <iframe src="https://www.youtube.com/embed/3kRQREANJzc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
