@@ -260,6 +260,9 @@ return(
 
 I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan Fairlady S30Z "Devil Z" and the Shutoku Highway). Apologies for quiet audio.</p>
 
+<a href="https://github.com/FarzadR-Dev/Assetto-Corsa-Speed-Tracker-App">GitHub Link</a>
+<br></br>
+<a href="https://github.com/FarzadR-Dev/Assetto-Corsa-Speed-Tracker-App/archive/refs/heads/main.zip">Download</a>
   </Carousel.Item>
 
 
