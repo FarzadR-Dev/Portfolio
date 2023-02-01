@@ -256,7 +256,7 @@ return(
   <iframe width="560" height="315" src="https://www.youtube.com/embed/hLxgE1tyIVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
       <h3 className='white-text'>Assetto Corsa Speed Tracker App</h3>
-      <p className='paragraph-2'>I was playing around with App development for Assetto Corsa and thought of a neat little tool for myself when doing top speed runs. 
+      <p className='paragraph-2'>I was playing around with App-development for Assetto Corsa and thought of a neat little tool for myself when doing top speed runs. 
 
 I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan Fairlady S30Z "Devil Z" and the Shutoku Highway). Apologies for quiet audio.</p>
 
