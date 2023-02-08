@@ -119,9 +119,9 @@ return(
             </div>
             <div className='column'>
             <h1 className='dark-info-text'>About Me</h1><br></br>
-          <p className='paragraph'>Hi! I'm Farzad, a first year computer engineering student at the University of Waterloo and software developer. My last position was as a Full-Stack Developer working with ServerlessStack and ReactJS.
-            Outside of class and programming, you'd find me playing video games, soccer, volleyball, tennis or basketball with friends. I also play piano, violin, guitar and sometimes produce and play with a launchpad mk II.
-            Based in Waterloo, I often bike/skate around the city, so feel free to say hi!
+          <p className='paragraph'>Hi! I'm Farzad, a computer engineering student at the University of Waterloo and software developer. My current position is as a Software Development Engineer in Test (SDET) specializing in Test Automation with xUnit and Cypress at BlackBerry.
+            Outside of class and programming, you'd find me playing video games, soccer, volleyball, tennis or basketball with friends. I also play piano, violin, and guitar.
+            Born and raised in Waterloo, if you see me around the city, feel free to say hi!
           </p>
             </div>
           </div>
