@@ -144,6 +144,12 @@ return(
             Part of my specialty was developing and debugging backend automation tests utilizing the xUnit framework while exploring a bit of Cypress for frontend testing.
             Before getting into automation, I had to audit the coverage of tests where I used a python bot to run through our testRail and repository.
             In a sense, I automated an automation audit.
+
+            I worked at BlackBerry as an SDET for about 8 months on Cylance Cybersecurity products. I ran manual frontend and backend tests on bugs and new features, while balancing putting time into
+            managing/writing/improving the automation tests. I caught gating issues and influenced design for user stories. Automation-wise, for backend I wrote xUnit framework tests in C#, and frontend I wrote Cypress.Js tests.
+            Early on, I wrote a small python script for the automation repo to track every listed test and certain details about them.
+            On frontend, since it was quite new, I wrote/created the Jenkins system for automation by writing the Jenkinsfile in Groovy.
+            I also caught a glimpse of the corporate experience and learned to go through changes and adapt to new challenges. My boss is the best and I miss working in my team. Nuff said.
   </p>
     </div>
   </div>
