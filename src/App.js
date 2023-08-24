@@ -119,9 +119,8 @@ return(
             </div>
             <div className='column'>
             <h1 className='dark-info-text'>About Me</h1><br></br>
-          <p className='paragraph'>Hi! I'm Farzad, a computer engineering student at the University of Waterloo and software developer. My current position is as a Software Development Engineer in Test (SDET) specializing in Test Automation with xUnit and Cypress at BlackBerry.
-            Outside of class and programming, you'd find me playing video games, soccer, volleyball, tennis or basketball with friends. I also play piano, violin, and guitar.
-            Born and raised in Waterloo, if you see me around the city, feel free to say hi!
+          <p className='paragraph'>I'm Farzad, a computer engineering student at the University of Waterloo and software developer. I am returning to BlackBerry as a Software Development Student this Fall.
+            
           </p>
             </div>
           </div>
@@ -148,8 +147,8 @@ return(
             I worked at BlackBerry as an SDET for about 8 months on Cylance Cybersecurity products. I ran manual frontend and backend tests on bugs and new features, while balancing putting time into
             managing/writing/improving the automation tests. I caught gating issues and influenced design for user stories. Automation-wise, for backend I wrote xUnit framework tests in C#, and frontend I wrote Cypress.Js tests.
             Early on, I wrote a small python script for the automation repo to track every listed test and certain details about them.
-            On frontend, since it was quite new, I wrote/created the Jenkins system for automation by writing the Jenkinsfile in Groovy.
-            I also caught a glimpse of the corporate experience and learned to go through changes and adapt to new challenges. My boss is the best and I miss working in my team. Nuff said.
+            On frontend, since it was quite new, I wrote/created the Jenkins system for automation by writing the Jenkinsfile in Groovy where you can customize playlists of tests to run on a desired server on a desired link. Wrote a couple automated tests along the way.
+            
   </p>
     </div>
   </div>
