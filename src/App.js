@@ -138,16 +138,10 @@ return(
           <a href="https://www.blackberry.com/us/en">
           <img alt='BlackBerry'src='https://logos-world.net/wp-content/uploads/2020/11/BlackBerry-Logo.png' className='image-type'/>
           </a>
-          <h3 className='white-text' id="workdesc">Software Development Engineer in Test aka SDET(TestRail, Git, Postman, xUnit C#, Jira)</h3> 
-            <p className='paragraph-2'>Recently, I started working at BlackBerry as a SDET. I ran manual frontend and backend tests around Cylance Cybersecurity platforms.
-            Part of my specialty was developing and debugging backend automation tests utilizing the xUnit framework while exploring a bit of Cypress for frontend testing.
-            Before getting into automation, I had to audit the coverage of tests where I used a python bot to run through our testRail and repository.
-            In a sense, I automated an automation audit.
-
-            I worked at BlackBerry as an SDET for about 8 months on Cylance Cybersecurity products. I ran manual frontend and backend tests on bugs and new features, while balancing putting time into
-            managing/writing/improving the automation tests. I caught gating issues and influenced design for user stories. Automation-wise, for backend I wrote xUnit framework tests in C#, and frontend I wrote Cypress.Js tests.
-            Early on, I wrote a small python script for the automation repo to track every listed test and certain details about them.
-            On frontend, since it was quite new, I wrote/created the Jenkins system for automation by writing the Jenkinsfile in Groovy where you can customize playlists of tests to run on a desired server on a desired link. Wrote a couple automated tests along the way.
+          <h3 className='white-text' id="workdesc">Software Development Student (React, .NET, C#, LaunchDarkly, NuGet, Ubuntu Linux)</h3> 
+            <p className='paragraph-2'>After my QA-related job, I got to join the Dev team of the same project I was working on (the Multi-Tenant-Console), 
+            which involved working on both the Frontend and the Backend of the platform. Working on frontend was the first time I had to run a VM with Ubuntu for my work environment.
+            I used React.Js (familiar) for frontend features and bugs, and .NET for backend. One of my largest tasks that was not a specific feature to develop, involved me reorganizing and rewriting/combining over 10 methods to use 2 general methods to control the LaunchDarkly Feature Flag API architecture, spanning across 4 repositories, and probably over 100 instances. 
             
   </p>
     </div>
