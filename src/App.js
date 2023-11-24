@@ -254,7 +254,7 @@ return(
 
   <Carousel.Item>
   <a href="https://github.com/FarzadR-Dev/Skipper">
-      <img src={logo} alt="Seventh slide" className='image-type'/>
+      <img src={skipper} alt="Seventh slide" className='image-type'/>
   </a>
   <Carousel.Caption>
       <h3>skipper: swift + swiftUI personal project (work in progress)</h3>
