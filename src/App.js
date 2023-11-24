@@ -252,6 +252,17 @@ return(
   <Carousel className='dark-info-4'>
 
   <Carousel.Item>
+  <a href="https://github.com/FarzadR-Dev/Skipper">
+      <img src={logo} alt="Seventh slide" className='image-type'/>
+  </a>
+  <Carousel.Caption>
+      <h3>skipper: swift + swiftUI personal project (work in progress)</h3>
+      <p>I wanted to explore mobile development with IOS so I decided to create a stone-skipper record-keeper. (stone skipping is on my linkedin skills)</p>
+    </Carousel.Caption>
+
+  </Carousel.Item>
+
+  <Carousel.Item>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/hLxgE1tyIVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
       <h3 className='white-text'>Assetto Corsa Speed Tracker App</h3>
