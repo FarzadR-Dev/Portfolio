@@ -14,6 +14,7 @@ import res1 from './images/resume_demo.png';
 import res1real from './Farzad Rahman.pdf';
 import res2 from './images/res2demo.png';
 import res2real from './newSkillsResume.pdf';
+import skipper from './images/logo.png'
 
 function App() {
 
