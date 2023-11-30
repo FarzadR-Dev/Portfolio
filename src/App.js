@@ -1,13 +1,9 @@
-// import logo from './logo.svg';
 import React, { useState } from "react";
 import './App.css';
 import Me from './images/image0.jpeg'
-// import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import {  Container, Navbar, Nav, Image, Button, Carousel } from 'react-bootstrap';
 import newvid from './newvid.mp4';
-// import { render } from '@testing-library/react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Particles from 'react-tsparticles';
 import Winner from './images/Winner.jpg';
 import DisGraph from './images/DisGraph.png';
 import res1 from './images/resume_demo.png';
@@ -318,14 +314,9 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
 <div className='header-wrapper' id="resumes">
   <div className='dark-info-5'>
     <div className='row'>
-      <h1>Résumés</h1>
+      <h1>Résumé</h1>
     </div>
     <div className='row'>
-      <div className='column-1'>
-        <a href={res1real}>
-        <img src={res1}  alt="res1"/>
-        </a>
-      </div>
       <div className='column-1'>
       <a href={res2real}>
           <img src={res2} alt="res2"/>
