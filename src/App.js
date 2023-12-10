@@ -15,7 +15,24 @@ import skipper from './images/logo.png'
 function App() {
 
   const [page, setPage] = useState("splash");
+  const checkPw = () => {
+  // gets the current input value
+  const answer = document.getElementById("password").value;
 
+  if (answer === "yusra" || answer === "Yusra") { 
+    setPage("yusra");
+  } else {
+    alert("Maybe you're not the one...");
+  }
+  };
+
+  function renderForHer(){
+    return(
+      <video className='videoTag' id="background-video" autoPlay loop muted>
+          <source src={newvid} type='video/mp4'/>
+      </video>
+    )
+  }
   function renderBackground(){
 return(
     <video className='videoTag' id="background-video" autoPlay loop muted>
@@ -27,6 +44,7 @@ return(
   function renderSplash(){
     const handleClick=(e)=>{
       setPage("");
+      
     }
 
     return(
@@ -41,6 +59,10 @@ return(
           
         </Button>
         Not optimized for mobile.
+         <form onSubmit={checkPw}>
+     <input id="password" name="password" />
+     <button>Enter your name, if you're worthy</button>
+    </form>
         
         </div>
         
@@ -340,6 +362,7 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
       {(page === "splash") && renderSplash()}
       {(page === "") && renderBackground()}
       {(page === "") && renderPage()}
+      {(page === "yusra") && renderForHer()}
 
       
       <>
