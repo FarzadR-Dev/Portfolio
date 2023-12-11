@@ -271,12 +271,19 @@ return(
   <Carousel className='dark-info-4'>
 
   <Carousel.Item>
+
   <a href="https://github.com/FarzadR-Dev/Skipper">
       <img src={skipper} alt="Seventh slide" className='image-type'/>
   </a>
+
+
   <Carousel.Caption>
       <h3>skipper: swift + swiftUI personal project (work in progress)</h3>
       <p>I wanted to explore mobile development with IOS so I decided to create a stone-skipper record-keeper. (stone skipping is on my linkedin skills)</p>
+      <iframe src="https://www.youtube.com/embed/5NIeasdt-VM" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    {/* <a href="https://youtube.com/shorts/5NIeasdt-VM?feature=share">
+      Demo Video
+    </a> */}
     </Carousel.Caption>
 
   </Carousel.Item>
