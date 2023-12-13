@@ -6,10 +6,7 @@ import newvid from './newvid.mp4';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Winner from './images/Winner.jpg';
 import DisGraph from './images/DisGraph.png';
-import res1 from './images/resume_demo.png';
-import res1real from './Farzad Rahman.pdf';
-import res2 from './images/res2demo.png';
-import res2real from './newSkillsResume.pdf';
+import resume from './Resume.pdf';
 import skipper from './images/logo.png'
 
 function App() {
@@ -87,7 +84,7 @@ return(
               <Nav.Link href="#work"><h4 className='dark-info-tex'>Work</h4></Nav.Link>
               <Nav.Link href="#sites"><h4 className='dark-info-tex'>Sites</h4></Nav.Link>
               <Nav.Link href="#projects"><h4 className='dark-info-tex'>Projects</h4></Nav.Link>
-              <Nav.Link href="#resumes"><h4 className='dark-info-tex'>Résumé</h4></Nav.Link>
+              <Nav.Link href={resume}><h4 className='dark-info-tex'>Résumé</h4></Nav.Link>
               {/* <NavDropdown title="Résumé" className='dark-info-tex' id="basic-nav-dropdown">
                 <NavDropdown.Item href="https://farzadr-dev.github.io/Skills%20Resume.docx.pdf">Version 1</NavDropdown.Item>
                 <NavDropdown.Item href="https://farzadr-dev.github.io/Updated%20Resume.pdf">Version 2</NavDropdown.Item>
@@ -334,26 +331,7 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
     </Carousel.Caption>
   </Carousel.Item>
 
-  
-
-
   </Carousel>
-</div>
-
-<div className='header-wrapper' id="resumes">
-  <div className='dark-info-5'>
-    <div className='row'>
-      <h1>Résumé</h1>
-    </div>
-    <div className='row'>
-      <div className='column-1'>
-      <a href={res2real}>
-          <img src={res2} alt="res2"/>
-        </a>
-      </div>
-    </div>
-  </div>
-
 </div>
 
 </>
