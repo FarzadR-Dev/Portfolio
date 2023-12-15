@@ -58,7 +58,7 @@ return(
         Not optimized for mobile.
          <form onSubmit={checkPw}>
      <input id="password" name="password" />
-     <button>Enter your name, if you're worthy</button>
+     <button>Enter with a password</button>
     </form>
         
         </div>
