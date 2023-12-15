@@ -16,10 +16,10 @@ function App() {
   // gets the current input value
   const answer = document.getElementById("password").value;
 
-  if (answer === "yusra" || answer === "Yusra") { 
-    setPage("yusra");
+  if (answer === "PERSONSPECIFIED") { 
+    setPage("PERSONSPECIFIED");
   } else {
-    alert("Maybe you're not the one...");
+    setPage("")
   }
   };
 
@@ -347,7 +347,7 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
       {(page === "splash") && renderSplash()}
       {(page === "") && renderBackground()}
       {(page === "") && renderPage()}
-      {(page === "yusra") && renderForHer()}
+      {(page === "PERSONSPECIFIED") && renderForHer()}
 
       
       <>
