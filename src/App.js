@@ -8,6 +8,8 @@ import Winner from './images/Winner.jpg';
 import DisGraph from './images/DisGraph.png';
 import resume from './Resume.pdf';
 import skipper from './images/logo.png'
+import sowad from './images/sowad.jpg'
+import tyseer from './images/Tyseer.jpg'
 
 function App() {
 
@@ -331,6 +333,30 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
     </Carousel.Caption>
   </Carousel.Item>
 
+  </Carousel>
+</div>
+
+<div className='header-wrapper' id="projects">
+<Carousel className='dark-info-2'>
+  <Carousel.Item>
+    <h3>Check out some of my friends' sites!</h3>
+  </Carousel.Item>
+  <Carousel.Item>
+  <a href="https://sowadk25.github.io/">
+      <img src={sowad} alt="Seventh slide" className='image-type'/>
+  </a>
+  </Carousel.Item>
+
+  <Carousel.Item>
+  <a href="https://tyseer.ca/">
+      <img src={tyseer} alt="Seventh slide" className='image-type'/>
+  </a>
+  </Carousel.Item>
+  <Carousel.Item>
+    <a href="https://joonsauce.me/">
+      <img src="https://joonsauce.me/media/joon.jpg" alt="Seventh slide" className="image-type"/>
+    </a>
+  </Carousel.Item>
   </Carousel>
 </div>
 
