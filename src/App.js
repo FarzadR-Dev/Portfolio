@@ -86,6 +86,7 @@ return(
               <Nav.Link href="#work"><h4 className='dark-info-tex'>Work</h4></Nav.Link>
               <Nav.Link href="#sites"><h4 className='dark-info-tex'>Sites</h4></Nav.Link>
               <Nav.Link href="#projects"><h4 className='dark-info-tex'>Projects</h4></Nav.Link>
+              <Nav.Link href="#GameGallery"><h4 className='dark-info-tex'>GameGallery</h4></Nav.Link>
               <Nav.Link href={resume}><h4 className='dark-info-tex'>Résumé</h4></Nav.Link>
               {/* <NavDropdown title="Résumé" className='dark-info-tex' id="basic-nav-dropdown">
                 <NavDropdown.Item href="https://farzadr-dev.github.io/Skills%20Resume.docx.pdf">Version 1</NavDropdown.Item>
@@ -336,6 +337,48 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
   </Carousel>
 </div>
 
+<div className='header-wrapper' id="GameGallery">
+  <Carousel className="dark-info-4">
+  <Carousel.Item>
+
+    <h2>A cool little hobby</h2>
+    <p>Since childhood, I have been obsessed with the beautiful worlds game studios are able to generate. These worlds are an escape to me from the bubble I live in called Waterloo. <br></br>So here's a gallery of some neat pictures I have taken in games I adore.</p>
+
+  </Carousel.Item>
+  <Carousel.Item>
+    <a href="">
+        <img src="https://upload.wikimedia.org/wikipedia/it/c/c1/Final_Fantasy_XV_Logo.jpg" alt = "Seventh slide" className='image-type'/>
+    </a>
+  </Carousel.Item>
+  <Carousel.Item>
+    <a href="">
+        <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/minecraft_logo_icon_168974.png" alt = "Seventh slide" className='image-type'/>
+    </a>
+  </Carousel.Item>
+  <Carousel.Item>
+    <a href="">
+        <img src="https://steamuserimages-a.akamaihd.net/ugc/1018321821846208980/B5E41D6A704B9BB13949F08BBB007AC7B8C8B9D1/?imw=512&imh=512&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt = "Seventh slide" className='image-type'/>
+    </a>
+  </Carousel.Item>
+  <Carousel.Item>
+    <a href="">
+        <img src="https://dl2.macupdate.com/images/icons256/49059.png" alt = "Seventh slide" className='image-type'/>
+    </a>
+  </Carousel.Item>
+  <Carousel.Item>
+    <a href="">
+        <img src="https://static-00.iconduck.com/assets.00/destiny-icon-512x475-qi0g8ih3.png" alt = "Seventh slide" className='image-type'/>
+    </a>
+  </Carousel.Item>
+  <Carousel.Item>
+    <a href="">
+        <img src="https://i1.modland.net/i/5fbcd2b1dc19b/7-1607541762-1961921767-lg_modland.webp" alt = "Seventh slide" className='image-type'/>
+    </a>
+  </Carousel.Item>
+
+  </Carousel>
+</div>
+
 <div className='header-wrapper' id="projects">
 <Carousel className='dark-info-2'>
   <Carousel.Item>
@@ -374,6 +417,7 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
       {(page === "") && renderBackground()}
       {(page === "") && renderPage()}
       {(page === "PERSONSPECIFIED") && renderForHer()}
+      
 
       
       <>
