@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import './App.css';
 import Me from './images/image0.jpeg'
 import {  Container, Navbar, Nav, Image, Button, Carousel } from 'react-bootstrap';
@@ -10,10 +10,13 @@ import resume from './Resume.pdf';
 import skipper from './images/logo.png'
 import sowad from './images/sowad.jpg'
 import tyseer from './images/Tyseer.jpg'
+import Gallery from './Gallery';
 
 function App() {
 
   const [page, setPage] = useState("splash");
+
+
   const checkPw = () => {
   // gets the current input value
   const answer = document.getElementById("password").value;
@@ -21,7 +24,7 @@ function App() {
   if (answer === "PERSONSPECIFIED") { 
     setPage("PERSONSPECIFIED");
   } else {
-    setPage("")
+    setPage("");
   }
   };
 
@@ -337,7 +340,7 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
   </Carousel>
 </div>
 
-{/* <div className='header-wrapper' id="GameGallery">
+ <div className='header-wrapper' id="GameGallery">
   <Carousel className="dark-info-4">
   <Carousel.Item>
 
@@ -346,38 +349,50 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
 
   </Carousel.Item>
   <Carousel.Item>
-    <a href="">
+    <a href="" onClick={function(){
+    return setPage("ffxv")
+  }}>
         <img src="https://upload.wikimedia.org/wikipedia/it/c/c1/Final_Fantasy_XV_Logo.jpg" alt = "Seventh slide" className='image-type'/>
     </a>
   </Carousel.Item>
   <Carousel.Item>
-    <a href="">
+    <a href="" onClick={function(){
+    return setPage("minecraft")
+  }}>
         <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/minecraft_logo_icon_168974.png" alt = "Seventh slide" className='image-type'/>
     </a>
   </Carousel.Item>
   <Carousel.Item>
-    <a href="">
+    <a href="" onClick={function(){
+    return setPage("assetto")
+  }}>
         <img src="https://steamuserimages-a.akamaihd.net/ugc/1018321821846208980/B5E41D6A704B9BB13949F08BBB007AC7B8C8B9D1/?imw=512&imh=512&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt = "Seventh slide" className='image-type'/>
     </a>
   </Carousel.Item>
   <Carousel.Item>
-    <a href="">
+    <a href="" onClick={function(){
+    return setPage("bioshock")
+  }}>
         <img src="https://dl2.macupdate.com/images/icons256/49059.png" alt = "Seventh slide" className='image-type'/>
     </a>
   </Carousel.Item>
   <Carousel.Item>
-    <a href="">
+    <a href="" onClick={function(){
+    return setPage("destiny")
+  }}>
         <img src="https://static-00.iconduck.com/assets.00/destiny-icon-512x475-qi0g8ih3.png" alt = "Seventh slide" className='image-type'/>
     </a>
   </Carousel.Item>
   <Carousel.Item>
-    <a href="">
+    <a href="" onClick={function(){
+    return setPage("cyberpunk")
+  }}>
         <img src="https://i1.modland.net/i/5fbcd2b1dc19b/7-1607541762-1961921767-lg_modland.webp" alt = "Seventh slide" className='image-type'/>
     </a>
   </Carousel.Item>
 
   </Carousel>
-</div> */}
+</div> 
 
 <div className='header-wrapper' id="projects">
 <Carousel className='dark-info-2'>
@@ -417,9 +432,12 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
       {(page === "") && renderBackground()}
       {(page === "") && renderPage()}
       {(page === "PERSONSPECIFIED") && renderForHer()}
-      
-
-      
+      {(page === "assetto") && <Gallery game="assetto"/>}
+      {(page === "bioshock") && <Gallery game="bioshock"/>}
+      {(page === "cyberpunk") && <Gallery game="cyberpunk"/>}
+      {(page === "destiny") && <Gallery game="destiny"/>}
+      {(page === "ffxv") && <Gallery game="ffxv"/>}
+      {(page === "minecraft") && <Gallery game="minecraft"/>}
       <>
 
   {/* <footer fixed="bottom">A CloseZad Production</footer> */}
