@@ -86,7 +86,7 @@ return(
               <Nav.Link href="#work"><h4 className='dark-info-tex'>Work</h4></Nav.Link>
               <Nav.Link href="#sites"><h4 className='dark-info-tex'>Sites</h4></Nav.Link>
               <Nav.Link href="#projects"><h4 className='dark-info-tex'>Projects</h4></Nav.Link>
-              <Nav.Link href="#GameGallery"><h4 className='dark-info-tex'>GameGallery</h4></Nav.Link>
+              {/* <Nav.Link href="#GameGallery"><h4 className='dark-info-tex'>GameGallery</h4></Nav.Link> */}
               <Nav.Link href={resume}><h4 className='dark-info-tex'>Résumé</h4></Nav.Link>
               {/* <NavDropdown title="Résumé" className='dark-info-tex' id="basic-nav-dropdown">
                 <NavDropdown.Item href="https://farzadr-dev.github.io/Skills%20Resume.docx.pdf">Version 1</NavDropdown.Item>
@@ -138,7 +138,7 @@ return(
             </div>
             <div className='column'>
             <h1 className='dark-info-text'>About Me</h1><br></br>
-          <p className='paragraph'>I'm Farzad, a computer engineering student at the University of Waterloo and software developer. I am returning to BlackBerry as a Software Development Student this Fall.
+          <p className='paragraph'>I'm Farzad, a computer engineering student at the University of Waterloo and software developer. I will be working at ClearPath Robotics this Summer.
             
           </p>
             </div>
@@ -337,7 +337,7 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
   </Carousel>
 </div>
 
-<div className='header-wrapper' id="GameGallery">
+{/* <div className='header-wrapper' id="GameGallery">
   <Carousel className="dark-info-4">
   <Carousel.Item>
 
@@ -377,7 +377,7 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
   </Carousel.Item>
 
   </Carousel>
-</div>
+</div> */}
 
 <div className='header-wrapper' id="projects">
 <Carousel className='dark-info-2'>
