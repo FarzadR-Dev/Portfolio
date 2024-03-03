@@ -404,7 +404,7 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
     <a onClick={function(){
     return setPage("bioshock")
   }}>
-        <img src="https://dl2.macupdate.com/images/icons256/49059.png" alt = "Seventh slide" className='image-type'/>
+        <img src="https://cdn.vox-cdn.com/thumbor/AoGJZ2E4WovQbcu0Hfs3L5rs5ig=/45x0:1055x673/1200x800/filters:focal(45x0:1055x673)/cdn.vox-cdn.com/uploads/chorus_image/image/35144030/Screen_Shot_2013-08-01_at_7.14.00_AM.0.png" alt = "Seventh slide" className='image-type'/>
     </a>
   </Carousel.Item>
   <Carousel.Item>
