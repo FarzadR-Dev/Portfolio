@@ -28,13 +28,13 @@ function App() {
   }
   };
 
-  function renderForHer(){
-    return(
-      <video className='videoTag' id="background-video" autoPlay loop muted>
-          <source src={newvid} type='video/mp4'/>
-      </video>
-    )
-  }
+  // function renderForHer(){
+  //   return(
+  //     <video className='videoTag' id="background-video" autoPlay loop muted>
+  //         <source src={newvid} type='video/mp4'/>
+  //     </video>
+  //   )
+  // }
   function renderBackground(){
 return(
     <video className='videoTag' id="background-video" autoPlay loop muted>
@@ -72,6 +72,37 @@ return(
     )
   }
 
+  function renderAssetto(){
+    return(
+      <Gallery game="assetto"/>
+    )
+  }
+  function renderBio(){
+    return(
+      <Gallery game="bioshock"/>
+    )
+  }
+  function renderCyber(){
+    return(
+      <Gallery game="cyberpunk"/>
+    )
+  }
+  function renderDestiny(){
+    return(
+      <Gallery game="destiny"/>
+    )
+  }
+  function renderFfxv(){
+    return(
+      <Gallery game="ffxv"/>
+    )
+  }
+  function renderMinecraft(){
+    return(
+      <Gallery game="minecraft"/>
+    )
+  }
+
   function renderPage(){
     return(
         <>
@@ -89,7 +120,7 @@ return(
               <Nav.Link href="#work"><h4 className='dark-info-tex'>Work</h4></Nav.Link>
               <Nav.Link href="#sites"><h4 className='dark-info-tex'>Sites</h4></Nav.Link>
               <Nav.Link href="#projects"><h4 className='dark-info-tex'>Projects</h4></Nav.Link>
-              {/* <Nav.Link href="#GameGallery"><h4 className='dark-info-tex'>GameGallery</h4></Nav.Link> */}
+              <Nav.Link href="#GameGallery"><h4 className='dark-info-tex'>GameGallery</h4></Nav.Link>
               <Nav.Link href={resume}><h4 className='dark-info-tex'>Résumé</h4></Nav.Link>
               {/* <NavDropdown title="Résumé" className='dark-info-tex' id="basic-nav-dropdown">
                 <NavDropdown.Item href="https://farzadr-dev.github.io/Skills%20Resume.docx.pdf">Version 1</NavDropdown.Item>
@@ -349,28 +380,28 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
 
   </Carousel.Item>
   <Carousel.Item>
-    <a href="" onClick={function(){
+    <a onClick={function(){
     return setPage("ffxv")
   }}>
         <img src="https://upload.wikimedia.org/wikipedia/it/c/c1/Final_Fantasy_XV_Logo.jpg" alt = "Seventh slide" className='image-type'/>
     </a>
   </Carousel.Item>
   <Carousel.Item>
-    <a href="" onClick={function(){
+    <a onClick={function(){
     return setPage("minecraft")
   }}>
         <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/minecraft_logo_icon_168974.png" alt = "Seventh slide" className='image-type'/>
     </a>
   </Carousel.Item>
   <Carousel.Item>
-    <a href="" onClick={function(){
+    <a  onClick={function(){
     return setPage("assetto")
   }}>
         <img src="https://steamuserimages-a.akamaihd.net/ugc/1018321821846208980/B5E41D6A704B9BB13949F08BBB007AC7B8C8B9D1/?imw=512&imh=512&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt = "Seventh slide" className='image-type'/>
     </a>
   </Carousel.Item>
   <Carousel.Item>
-    <a href="" onClick={function(){
+    <a onClick={function(){
     return setPage("bioshock")
   }}>
         <img src="https://dl2.macupdate.com/images/icons256/49059.png" alt = "Seventh slide" className='image-type'/>
@@ -384,7 +415,7 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
     </a>
   </Carousel.Item>
   <Carousel.Item>
-    <a href="" onClick={function(){
+    <a  onClick={function(){
     return setPage("cyberpunk")
   }}>
         <img src="https://i1.modland.net/i/5fbcd2b1dc19b/7-1607541762-1961921767-lg_modland.webp" alt = "Seventh slide" className='image-type'/>
@@ -431,13 +462,15 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
       {(page === "splash") && renderSplash()}
       {(page === "") && renderBackground()}
       {(page === "") && renderPage()}
-      {(page === "PERSONSPECIFIED") && renderForHer()}
-      {(page === "assetto") && <Gallery game="assetto"/>}
-      {(page === "bioshock") && <Gallery game="bioshock"/>}
-      {(page === "cyberpunk") && <Gallery game="cyberpunk"/>}
-      {(page === "destiny") && <Gallery game="destiny"/>}
-      {(page === "ffxv") && <Gallery game="ffxv"/>}
-      {(page === "minecraft") && <Gallery game="minecraft"/>}
+      {(page === "") && <h1>status: home</h1>}
+      {/* {(page === "PERSONSPECIFIED") && renderForHer()} */}
+      {(page != "bullshit") && <h1>{page}</h1>}
+      {(page === "assetto") && renderAssetto()}
+      {(page === "bioshock") && renderBio()}
+      {(page === "cyberpunk") && renderCyber()}
+      {(page === "destiny") && renderDestiny()}
+      {(page === "ffxv") && renderFfxv()}
+      {(page === "minecraft") && renderMinecraft()}
       <>
 
   {/* <footer fixed="bottom">A CloseZad Production</footer> */}
