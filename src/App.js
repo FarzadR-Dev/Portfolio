@@ -465,6 +465,7 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
       {(page === "") && <h1>status: home</h1>}
       {/* {(page === "PERSONSPECIFIED") && renderForHer()} */}
       {(page != "bullshit") && <h1>{page}</h1>}
+      {(page != "") && (page != "splash") && <Button onClick={function(){return setPage("")}}><h1>BACK</h1></Button>}
       {(page === "assetto") && renderAssetto()}
       {(page === "bioshock") && renderBio()}
       {(page === "cyberpunk") && renderCyber()}
