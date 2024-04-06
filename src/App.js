@@ -123,8 +123,8 @@ return(
               <Nav.Link href="#GameGallery"><h4 className='dark-info-tex'>GameGallery</h4></Nav.Link>
               <Nav.Link href={resume}><h4 className='dark-info-tex'>Résumé</h4></Nav.Link>
               {/* <NavDropdown title="Résumé" className='dark-info-tex' id="basic-nav-dropdown">
-                <NavDropdown.Item href="https://farzadr-dev.github.io/Skills%20Resume.docx.pdf">Version 1</NavDropdown.Item>
-                <NavDropdown.Item href="https://farzadr-dev.github.io/Updated%20Resume.pdf">Version 2</NavDropdown.Item>
+                <NavDropdown.Item href="https://CloseZad.github.io/Skills%20Resume.docx.pdf">Version 1</NavDropdown.Item>
+                <NavDropdown.Item href="https://CloseZad.github.io/Updated%20Resume.pdf">Version 2</NavDropdown.Item>
               </NavDropdown> */}
             </Nav>
           </Navbar.Collapse>
@@ -306,7 +306,7 @@ return(
 
   <Carousel.Item>
 
-  <a href="https://github.com/FarzadR-Dev/Skipper">
+  <a href="https://github.com/CloseZad/Skipper">
       <img src={skipper} alt="Seventh slide" className='image-type'/>
   </a>
 
@@ -330,14 +330,14 @@ return(
 
 I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan Fairlady S30Z "Devil Z" and the Shutoku Highway). Apologies for quiet audio.</p>
 
-<a href="https://github.com/FarzadR-Dev/Assetto-Corsa-Speed-Tracker-App">GitHub Link</a>
+<a href="https://github.com/CloseZad/Assetto-Corsa-Speed-Tracker-App">GitHub Link</a>
 <br></br>
-<a href="https://github.com/FarzadR-Dev/Assetto-Corsa-Speed-Tracker-App/archive/refs/heads/main.zip">Download</a>
+<a href="https://github.com/CloseZad/Assetto-Corsa-Speed-Tracker-App/archive/refs/heads/main.zip">Download</a>
   </Carousel.Item>
 
 
   <Carousel.Item>
-  <a href="https://github.com/FarzadR-Dev/GameJam2020-WON-AWARD-">
+  <a href="https://github.com/CloseZad/GameJam2020-WON-AWARD-">
       <img src={Winner} alt="Seventh slide" className='image-type'/>
   </a>
         <Carousel.Caption>
