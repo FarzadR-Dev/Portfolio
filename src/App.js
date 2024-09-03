@@ -188,13 +188,16 @@ return(
     <div className='dark-info-3' id="work">
           <h1>Recent Work Experience</h1>
           <br></br>
-          <a href="https://www.blackberry.com/us/en">
-          <img alt='BlackBerry'src='https://logos-world.net/wp-content/uploads/2020/11/BlackBerry-Logo.png' className='image-type'/>
+          <a href="https://ottomotors.com/">
+          <img alt='BlackBerry'src='https://clearpathrobotics.com/wp-content/uploads/2016/04/otto-Motors-division-of-Clearpath.jpg' className='image-type'/>
           </a>
-          <h3 className='white-text' id="workdesc">Software Development Student (React, .NET, C#, LaunchDarkly, NuGet, Ubuntu Linux)</h3> 
-            <p className='paragraph-2'>After my QA-related job, I got to join the Dev team of the same project I was working on (the Multi-Tenant-Console), 
-            which involved working on both the Frontend and the Backend of the platform. Working on frontend was the first time I had to run a VM with Ubuntu for my work environment.
-            I used React.Js (familiar) for frontend features and bugs, and .NET for backend. One of my largest tasks that was not a specific feature to develop, involved me reorganizing and rewriting/combining over 10 methods to use 2 general methods to control the LaunchDarkly Feature Flag API architecture, spanning across 4 repositories, and probably over 100 instances. 
+          <h3 className='white-text' id="workdesc">Software Test Engineer Intern (Cypress.IO, ROS, Gitlab CI/CD, Ubuntu, VMware VRealize, Kubernetes)</h3> 
+            <p className='paragraph-2'>
+              Recently I had the pleasure of working my Summer 2024 Co-op term at Clearpath Robotics/OTTO Motors. The bulk of my experience was engineering automation tests for the OTTO Motors Fleet Manager,
+              used to manage large fleets of OTTO Motors robots. The OTTO App was used for manually controlling invidiual robots and giving it tasks to accomplish. The tests I wrote and debugged were written in Cypress.IO
+              <br></br>
+              Aside from getting to test out the physical OTTO 100's controls with our UI, another cool thing I worked on was developing canvas testing to automate tests that use the canvas element.
+              This meant a lot of drawing shapes and stuff with the tools. I ended up having to create my own conversion system between the OpenLayer cartesian plane and Cypress' screen cartesian plane.
             
   </p>
     </div>
@@ -432,6 +435,11 @@ I was inspired by the Midnight Club's runs and Wangan Midnight (hence the Nissan
   </Carousel.Item>
   <Carousel.Item>
   <a href="https://sowadk25.github.io/">
+      <img src={sowad} alt="Seventh slide" className='image-type'/>
+  </a>
+  </Carousel.Item>
+  <Carousel.Item>
+  <a href="https://harshp30.github.io/PersonalWebsite/">
       <img src={sowad} alt="Seventh slide" className='image-type'/>
   </a>
   </Carousel.Item>
